@@ -14,7 +14,7 @@ class Ai_ProjectGUI:
         
         pvp_button = tk.Button(self.root, text='Player vs Player2', command=lambda: self.set_game_mode('PvP'))
         pvp_button.grid(row=3, column=0)
-        pvc_button = tk.Button(self.root, text='Player vs Computer', command=lambda: self.set_game_mode('PvC'))
+        pvc_button = tk.Button(self.root, text='Player vs Ai', command=lambda: self.set_game_mode('PvC'))
         pvc_button.grid(row=3, column=1)
 
         # Initialize the game board buttons
