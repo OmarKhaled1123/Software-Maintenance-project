@@ -12,7 +12,7 @@ class Ai_ProjectGUI:
         self.buttons = [[None for _ in range(3)] for _ in range(3)]
         self.game_mode = None
         
-        pvp_button = tk.Button(self.root, text='Player vs Playerrrr', command=lambda: self.set_game_mode('PvP'))
+        pvp_button = tk.Button(self.root, text='Player vs Player2', command=lambda: self.set_game_mode('PvP'))
         pvp_button.grid(row=3, column=0)
         pvc_button = tk.Button(self.root, text='Player vs Computer', command=lambda: self.set_game_mode('PvC'))
         pvc_button.grid(row=3, column=1)
