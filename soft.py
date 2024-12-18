@@ -6,7 +6,7 @@ class Ai_ProjectGUI:
     def __init__(self):
         # Initialize
         self.root = tk.Tk()
-        self.root.title("omar project")
+        self.root.title("omar gi")
         self.board = [[' ' for _ in range(3)] for _ in range(3)]
         self.current_player = 'X'
         self.buttons = [[None for _ in range(3)] for _ in range(3)]
